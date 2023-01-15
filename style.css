@@ -1,0 +1,39 @@
+body {
+    background-image: linear-gradient(to right, red, rgb(250, 214, 9));
+    color: white;
+}
+
+.operator, #C, #igual {
+    color: black;
+    border: 1px solid black;
+}
+
+#vysor {
+    width: 100%;
+    display: inline-block;
+    cursor: inherit;
+}
+
+span {
+    padding: 20px;
+    border: 1px solid white;
+    transition: linear .2s;
+    text-align: center;
+    font-size: 20px;
+}
+
+span:hover {
+    background-color: rgba(255, 255, 255, .5);
+    cursor: pointer;
+}
+
+div {
+    margin-top: 40px;
+}
+
+#principal {
+    border: 1px solid white;
+    padding: 20px;
+    width: 500px;
+    height: 600px;
+}
